@@ -19,9 +19,9 @@ I am a novice web developer. I like to learn new things and learn the basics of 
 
 ## Code example
 ```
-function multiply(a, b) {
-  return a * b
-}
+function explode(s) {
+  return s.split('').map(el => el.repeat(el)).join('');
+};
 ```
 ## Education 
 Belarusian State Agrarian Technical University (Faculty of Engineering and Technology)
